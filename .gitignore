@@ -1,0 +1,18 @@
+# Zig build artifacts
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Build artifacts in root (if any)
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE/Editor files (common additions)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
