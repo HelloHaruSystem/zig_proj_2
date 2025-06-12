@@ -16,6 +16,6 @@ pub const Method = enum {
     }
 };
 
-const MethodMap = Map(Method).initComptime(
+const MethodMap = Map(Method).initComptime(.{
     .{ "GET", Method.get },
-);
+});
