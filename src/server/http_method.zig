@@ -1,4 +1,3 @@
-const std = @import("std");
 const Map = @import("std").static_string_map.StaticStringMap;
 
 pub const Method = enum {
